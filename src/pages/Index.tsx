@@ -104,6 +104,7 @@ const Index = () => {
           © 2026 <span className="neon-text-cyan font-display font-bold">Neon Explorer</span> — Your Gateway to Extraordinary Travel
         </p>
       </footer>
+      </div>
     </div>
   );
 };
