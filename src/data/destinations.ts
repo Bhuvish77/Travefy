@@ -1,3 +1,7 @@
+import shimlaImg from "@/assets/shimla.jpg";
+import kazirangaImg from "@/assets/kaziranga.jpg";
+import munnarImg from "@/assets/munnar.jpg";
+
 export interface Destination {
   id: string;
   name: string;
