@@ -187,7 +187,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "God's Own Hill Station",
     description: "A stunning hill station in Kerala's Western Ghats, blanketed by endless rolling tea plantations, misty peaks, and rare wildlife in its national parks.",
-    image: "https://images.unsplash.com/photo-1625498542602-6bfb30f39b3a?w=800&q=80",
+    image: munnarImg,
     mustVisit: ["Tea Gardens", "Eravikulam National Park", "Top Station", "Mattupetty Dam", "Attukal Waterfalls"],
     bestTime: "September to March",
     famousFor: "Tea plantations, Neelakurinji flowers, and trekking",
