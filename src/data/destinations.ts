@@ -44,7 +44,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Queen of the Hills",
     description: "The former summer capital of British India, Shimla charms visitors with its colonial architecture, scenic toy train rides, and panoramic mountain views.",
-    image: "https://images.unsplash.com/photo-1597074866923-dc0589150a51?w=800&q=80",
+    image: shimlaImg,
     mustVisit: ["The Ridge", "Mall Road", "Jakhoo Temple", "Christ Church", "Kufri"],
     bestTime: "March to June",
     famousFor: "Colonial heritage, toy train, and scenic hill walks",
