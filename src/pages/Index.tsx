@@ -26,6 +26,8 @@ const Index = () => {
       />
       {/* Dark overlay for readability */}
       <div className="fixed inset-0 z-0 bg-background/80 backdrop-blur-[2px]" />
+      {/* All content above background */}
+      <div className="relative z-10">
       {/* Hero */}
       <header className="relative py-16 md:py-24 text-center overflow-hidden">
         {/* Background effects */}
