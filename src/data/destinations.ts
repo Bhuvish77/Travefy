@@ -88,7 +88,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Kingdom of the One-Horned Rhino",
     description: "A UNESCO World Heritage Site in Assam, Kaziranga is home to two-thirds of the world's one-horned rhinoceros population, along with tigers, elephants, and diverse birdlife.",
-    image: "https://images.unsplash.com/photo-1535338454528-1b5a4f159e53?w=800&q=80",
+    image: kazirangaImg,
     mustVisit: ["Elephant Safari", "Jeep Safari", "Central Range", "Orchid Park", "Diphlu River"],
     bestTime: "November to April",
     famousFor: "One-horned rhinos, tiger reserves, and elephant safaris",
