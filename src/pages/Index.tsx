@@ -6,6 +6,7 @@ import VenueCard from "@/components/VenueCard";
 import VenueDetail from "@/components/VenueDetail";
 import HeroToggle from "@/components/HeroToggle";
 import type { Destination } from "@/data/destinations";
+import bgSwitzerland from "@/assets/bg-switzerland.jpg";
 
 const Index = () => {
   const [activeRegion, setActiveRegion] = useState<"india" | "abroad">("india");
@@ -17,7 +18,14 @@ const Index = () => {
   );
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen relative">
+      {/* Fixed background image */}
+      <div
+        className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${bgSwitzerland})` }}
+      />
+      {/* Dark overlay for readability */}
+      <div className="fixed inset-0 z-0 bg-background/80 backdrop-blur-[2px]" />
       {/* Hero */}
       <header className="relative py-16 md:py-24 text-center overflow-hidden">
         {/* Background effects */}
