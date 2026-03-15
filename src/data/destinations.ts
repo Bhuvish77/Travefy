@@ -1,3 +1,7 @@
+import shimlaImg from "@/assets/shimla.jpg";
+import kazirangaImg from "@/assets/kaziranga.jpg";
+import munnarImg from "@/assets/munnar.jpg";
+
 export interface Destination {
   id: string;
   name: string;
@@ -40,7 +44,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Queen of the Hills",
     description: "The former summer capital of British India, Shimla charms visitors with its colonial architecture, scenic toy train rides, and panoramic mountain views.",
-    image: "https://images.unsplash.com/photo-1597074866923-dc0589150a51?w=800&q=80",
+    image: shimlaImg,
     mustVisit: ["The Ridge", "Mall Road", "Jakhoo Temple", "Christ Church", "Kufri"],
     bestTime: "March to June",
     famousFor: "Colonial heritage, toy train, and scenic hill walks",
@@ -84,7 +88,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Kingdom of the One-Horned Rhino",
     description: "A UNESCO World Heritage Site in Assam, Kaziranga is home to two-thirds of the world's one-horned rhinoceros population, along with tigers, elephants, and diverse birdlife.",
-    image: "https://images.unsplash.com/photo-1535338454528-1b5a4f159e53?w=800&q=80",
+    image: kazirangaImg,
     mustVisit: ["Elephant Safari", "Jeep Safari", "Central Range", "Orchid Park", "Diphlu River"],
     bestTime: "November to April",
     famousFor: "One-horned rhinos, tiger reserves, and elephant safaris",
@@ -183,7 +187,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "God's Own Hill Station",
     description: "A stunning hill station in Kerala's Western Ghats, blanketed by endless rolling tea plantations, misty peaks, and rare wildlife in its national parks.",
-    image: "https://images.unsplash.com/photo-1625498542602-6bfb30f39b3a?w=800&q=80",
+    image: munnarImg,
     mustVisit: ["Tea Gardens", "Eravikulam National Park", "Top Station", "Mattupetty Dam", "Attukal Waterfalls"],
     bestTime: "September to March",
     famousFor: "Tea plantations, Neelakurinji flowers, and trekking",
