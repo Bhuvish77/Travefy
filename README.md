@@ -32,7 +32,7 @@ The project focuses on combining **clean UI design**, **modern web technologies*
 - TailwindCSS
 - AI-assisted development using **Lovable AI**
 - UI
----
+
 
 ## 📂 Project Structure
 
