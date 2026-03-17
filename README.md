@@ -1,14 +1,14 @@
-# 🌌 Travefy
+# 🌌 Neon Explorer
 
 
 A modern travel exploration website built for a **Web Development Event** at my college. 
-Travefy is designed to help users discover beautiful destinations with an immersive and visually engaging interface.
+Neon Explorer is designed to help users discover beautiful destinations with an immersive and visually engaging interface.
 
 ---
 
 ## 🚀 Project Overview
 
- Travefy is a responsive travel website that allows users to explore destinations, view travel highlights, and experience a futuristic neon-themed design.
+ Neon Explorer is a responsive travel website that allows users to explore destinations, view travel highlights, and experience a futuristic neon-themed design.
 
 The project focuses on combining **clean UI design**, **modern web technologies**, and **smooth user experience** to create an engaging travel platform.
 
