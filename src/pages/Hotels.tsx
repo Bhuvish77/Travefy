@@ -81,12 +81,14 @@ const Hotels = () => {
 
           {/* Map - Right */}
           <div className="flex-1 min-h-[400px] lg:min-h-0 relative">
-            <HotelMap
-              hotels={filteredHotels}
-              routes={travelRoutes}
-              selectedHotel={selectedHotel}
-              onSelectHotel={setSelectedHotel}
-            />
+            <Suspense fallback={<div className="w-full h-full flex items-center justify-center bg-card rounded-xl border border-border"><span className="text-muted-foreground font-body text-sm">Loading map…</span></div>}>
+              <HotelMap
+                hotels={filteredHotels}
+                routes={travelRoutes}
+                selectedHotel={selectedHotel}
+                onSelectHotel={setSelectedHotel}
+              />
+            </Suspense>
 
             {/* Route Legend */}
             <div className="absolute bottom-4 left-4 bg-card/90 backdrop-blur-md border border-border rounded-lg px-4 py-3 z-[1000]">
