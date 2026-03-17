@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import { Star, Wifi, UtensilsCrossed, Waves, Car, Dumbbell, Sparkles } from "lucide-react";
 import type { Hotel } from "@/data/hotels";
 
@@ -22,12 +23,19 @@ interface HotelCardProps {
 }
 
 const HotelCard = ({ hotel, isSelected, onClick, index }: HotelCardProps) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    onClick();
+    navigate(`/hotels/${hotel.id}`);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.4, delay: index * 0.06 }}
-      onClick={onClick}
+      onClick={handleClick}
       className={`group flex gap-4 p-3 rounded-xl cursor-pointer transition-all duration-300 border ${
         isSelected
           ? "border-primary bg-primary/10 shadow-[0_0_20px_hsl(var(--neon-cyan)/0.2)]"
