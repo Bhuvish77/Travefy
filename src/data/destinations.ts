@@ -203,7 +203,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Princess of Hill Stations",
     description: "Perched atop the Palani Hills, Kodaikanal is a misty haven with a star-shaped lake, dense shola forests, cascading waterfalls, and an enchanting colonial-era charm.",
-    image: "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=800&q=80",
+    image: kodaikanalImg,
     mustVisit: ["Kodaikanal Lake", "Coaker's Walk", "Pillar Rocks", "Bryant Park", "Silver Cascade Falls"],
     bestTime: "October to June",
     famousFor: "Star-shaped lake, homemade chocolates, and misty trails",
