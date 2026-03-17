@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Compass, Sparkles } from "lucide-react";
+import { Compass, Sparkles, Hotel } from "lucide-react";
+import { Link } from "react-router-dom";
 import { destinations } from "@/data/destinations";
 import VenueCard from "@/components/VenueCard";
 import VenueDetail from "@/components/VenueDetail";
@@ -66,8 +67,17 @@ const Index = () => {
 
           <HeroToggle activeRegion={activeRegion} onToggle={setActiveRegion} />
 
-          <div className="mt-6 text-sm text-text-dim font-body">
-            {filteredDestinations.length} destinations to explore
+          <div className="mt-6 flex flex-col items-center gap-3">
+            <span className="text-sm text-text-dim font-body">
+              {filteredDestinations.length} destinations to explore
+            </span>
+            <Link
+              to="/hotels"
+              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-primary/10 border border-primary/30 text-primary font-display font-bold text-sm hover:bg-primary/20 hover:shadow-[0_0_20px_hsl(var(--neon-cyan)/0.3)] transition-all duration-300"
+            >
+              <Hotel size={16} />
+              Hotels & Itinerary Map
+            </Link>
           </div>
         </motion.div>
       </header>
