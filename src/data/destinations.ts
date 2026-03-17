@@ -27,7 +27,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "The Land of High Passes",
     description: "A mystical high-altitude desert nestled between the Kunlun and Himalayan ranges. Ladakh offers surreal landscapes with pristine lakes, ancient monasteries, and thrilling mountain passes.",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: ladakhImg,
     mustVisit: ["Pangong Lake", "Nubra Valley", "Magnetic Hill", "Thiksey Monastery", "Khardung La Pass"],
     bestTime: "June to September",
     famousFor: "Stunning high-altitude landscapes, Buddhist monasteries, and adventure biking",
