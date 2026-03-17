@@ -1,6 +1,7 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Compass, Sparkles } from "lucide-react";
+import { Compass, Sparkles, Hotel } from "lucide-react";
+import { Link } from "react-router-dom";
 import { destinations } from "@/data/destinations";
 import VenueCard from "@/components/VenueCard";
 import VenueDetail from "@/components/VenueDetail";
