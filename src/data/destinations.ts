@@ -1,6 +1,11 @@
 import shimlaImg from "@/assets/shimla.jpg";
 import kazirangaImg from "@/assets/kaziranga.jpg";
 import munnarImg from "@/assets/munnar.jpg";
+import ootyImg from "@/assets/ooty.jpg";
+import ladakhImg from "@/assets/ladakh.jpg";
+import jaipurImg from "@/assets/jaipur.jpg";
+import kodaikanalImg from "@/assets/kodaikanal.jpg";
+import budapestImg from "@/assets/budapest.jpg";
 
 export interface Destination {
   id: string;
