@@ -1,6 +1,11 @@
 import shimlaImg from "@/assets/shimla.jpg";
 import kazirangaImg from "@/assets/kaziranga.jpg";
 import munnarImg from "@/assets/munnar.jpg";
+import ootyImg from "@/assets/ooty.jpg";
+import ladakhImg from "@/assets/ladakh.jpg";
+import jaipurImg from "@/assets/jaipur.jpg";
+import kodaikanalImg from "@/assets/kodaikanal.jpg";
+import budapestImg from "@/assets/budapest.jpg";
 
 export interface Destination {
   id: string;
@@ -22,7 +27,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "The Land of High Passes",
     description: "A mystical high-altitude desert nestled between the Kunlun and Himalayan ranges. Ladakh offers surreal landscapes with pristine lakes, ancient monasteries, and thrilling mountain passes.",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: ladakhImg,
     mustVisit: ["Pangong Lake", "Nubra Valley", "Magnetic Hill", "Thiksey Monastery", "Khardung La Pass"],
     bestTime: "June to September",
     famousFor: "Stunning high-altitude landscapes, Buddhist monasteries, and adventure biking",
@@ -154,7 +159,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "The Pink City",
     description: "Rajasthan's vibrant capital, Jaipur dazzles with majestic forts, ornate palaces, bustling bazaars, and a rich royal heritage painted in shades of pink.",
-    image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
+    image: jaipurImg,
     mustVisit: ["Amber Fort", "Hawa Mahal", "City Palace", "Jantar Mantar", "Nahargarh Fort"],
     bestTime: "October to March",
     famousFor: "Royal palaces, colorful bazaars, and Rajasthani cuisine",
@@ -176,7 +181,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Queen of the Nilgiris",
     description: "A picturesque hill station in Tamil Nadu surrounded by tea plantations, eucalyptus forests, and serene lakes, offering a cool retreat in the Nilgiri Mountains.",
-    image: "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=800&q=80",
+    image: ootyImg,
     mustVisit: ["Ooty Lake", "Botanical Gardens", "Nilgiri Mountain Railway", "Doddabetta Peak", "Tea Museum"],
     bestTime: "October to June",
     famousFor: "Tea gardens, toy train, and chocolate factories",
@@ -198,7 +203,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Princess of Hill Stations",
     description: "Perched atop the Palani Hills, Kodaikanal is a misty haven with a star-shaped lake, dense shola forests, cascading waterfalls, and an enchanting colonial-era charm.",
-    image: "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=800&q=80",
+    image: kodaikanalImg,
     mustVisit: ["Kodaikanal Lake", "Coaker's Walk", "Pillar Rocks", "Bryant Park", "Silver Cascade Falls"],
     bestTime: "October to June",
     famousFor: "Star-shaped lake, homemade chocolates, and misty trails",
@@ -310,7 +315,7 @@ export const destinations: Destination[] = [
     region: "abroad",
     tagline: "Pearl of the Danube",
     description: "Split by the Danube River into historic Buda and vibrant Pest, Budapest mesmerizes with thermal baths, ruin bars, and stunning Art Nouveau architecture.",
-    image: "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80",
+    image: budapestImg,
     mustVisit: ["Buda Castle", "Széchenyi Baths", "Parliament Building", "Fisherman's Bastion", "Ruin Bars"],
     bestTime: "March to May",
     famousFor: "Thermal baths, ruin bars, and Danube cruises",
