@@ -181,7 +181,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "Queen of the Nilgiris",
     description: "A picturesque hill station in Tamil Nadu surrounded by tea plantations, eucalyptus forests, and serene lakes, offering a cool retreat in the Nilgiri Mountains.",
-    image: "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?w=800&q=80",
+    image: ootyImg,
     mustVisit: ["Ooty Lake", "Botanical Gardens", "Nilgiri Mountain Railway", "Doddabetta Peak", "Tea Museum"],
     bestTime: "October to June",
     famousFor: "Tea gardens, toy train, and chocolate factories",
