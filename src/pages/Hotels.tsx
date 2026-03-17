@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import { Hotel as HotelIcon, Map, ArrowLeft, Plane, Car, TrainFront } from "lucide-react";
 import { Link } from "react-router-dom";
 import { hotels, travelRoutes } from "@/data/hotels";
 import HotelCard from "@/components/HotelCard";
-import HotelMap from "@/components/HotelMap";
 import type { Hotel } from "@/data/hotels";
+
+const HotelMap = lazy(() => import("@/components/HotelMap"));
 
 const modeIcons = {
   flight: <Plane size={14} />,
