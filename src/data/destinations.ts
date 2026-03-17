@@ -315,7 +315,7 @@ export const destinations: Destination[] = [
     region: "abroad",
     tagline: "Pearl of the Danube",
     description: "Split by the Danube River into historic Buda and vibrant Pest, Budapest mesmerizes with thermal baths, ruin bars, and stunning Art Nouveau architecture.",
-    image: "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80",
+    image: budapestImg,
     mustVisit: ["Buda Castle", "Széchenyi Baths", "Parliament Building", "Fisherman's Bastion", "Ruin Bars"],
     bestTime: "March to May",
     famousFor: "Thermal baths, ruin bars, and Danube cruises",
