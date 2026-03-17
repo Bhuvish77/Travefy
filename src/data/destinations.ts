@@ -159,7 +159,7 @@ export const destinations: Destination[] = [
     region: "india",
     tagline: "The Pink City",
     description: "Rajasthan's vibrant capital, Jaipur dazzles with majestic forts, ornate palaces, bustling bazaars, and a rich royal heritage painted in shades of pink.",
-    image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80",
+    image: jaipurImg,
     mustVisit: ["Amber Fort", "Hawa Mahal", "City Palace", "Jantar Mantar", "Nahargarh Fort"],
     bestTime: "October to March",
     famousFor: "Royal palaces, colorful bazaars, and Rajasthani cuisine",
