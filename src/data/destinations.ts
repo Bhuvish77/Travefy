@@ -6,6 +6,15 @@ import ladakhImg from "@/assets/ladakh.jpg";
 import jaipurImg from "@/assets/jaipur.jpg";
 import kodaikanalImg from "@/assets/kodaikanal.jpg";
 import budapestImg from "@/assets/budapest.jpg";
+import tawangImg from "@/assets/tawang.jpg";
+import auliImg from "@/assets/auli.jpg";
+import varkalaImg from "@/assets/varkala.jpg";
+import coorgImg from "@/assets/coorg.jpg";
+import kakkathuruthuImg from "@/assets/kakkathuruthu.jpg";
+import ziroValleyImg from "@/assets/ziro-valley.jpg";
+import seychellesImg from "@/assets/seychelles.jpg";
+import mauritiusImg from "@/assets/mauritius.jpg";
+import santoriniImg from "@/assets/santorini.jpg";
 
 export interface Destination {
   id: string;
