@@ -18,7 +18,7 @@ const Hotels = () => {
   const [selectedHotel, setSelectedHotel] = useState<Hotel | null>(null);
   const [filter, setFilter] = useState<"all" | "india" | "abroad">("all");
 
-  const indiaDestinations = ["Ladakh", "Manali", "Shimla", "Kashmir Valley", "Goa", "Jaipur"];
+  const indiaDestinations = ["Ladakh", "Manali", "Shimla", "Kashmir Valley", "Goa", "Jaipur", "Udaipur", "Chennai", "Bengaluru", "Kerala", "Agra"];
   const filteredHotels = hotels.filter((h) => {
     if (filter === "all") return true;
     if (filter === "india") return indiaDestinations.includes(h.destination);
